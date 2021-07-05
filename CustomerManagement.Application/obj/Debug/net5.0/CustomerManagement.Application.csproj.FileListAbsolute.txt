@@ -1,0 +1,12 @@
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\bin\Debug\net5.0\CustomerManagement.Application.deps.json
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\bin\Debug\net5.0\CustomerManagement.Application.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\bin\Debug\net5.0\ref\CustomerManagement.Application.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\bin\Debug\net5.0\CustomerManagement.Application.pdb
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.csproj.AssemblyReference.cache
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.AssemblyInfoInputs.cache
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.AssemblyInfo.cs
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.csproj.CoreCompileInputs.cache
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\ref\CustomerManagement.Application.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Application\obj\Debug\net5.0\CustomerManagement.Application.pdb
