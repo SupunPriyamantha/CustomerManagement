@@ -1,0 +1,17 @@
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Data.Querying.deps.json
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Data.Querying.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\ref\CustomerManagement.Data.Querying.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Data.Querying.pdb
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.csproj.AssemblyReference.cache
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.AssemblyInfoInputs.cache
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.AssemblyInfo.cs
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.csproj.CoreCompileInputs.cache
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\ref\CustomerManagement.Data.Querying.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.pdb
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Data.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Domain.dll
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Data.pdb
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\bin\Debug\net5.0\CustomerManagement.Domain.pdb
+D:\Study_Projects\CustomerManagement\CustomerManagement.Data.Querying\obj\Debug\net5.0\CustomerManagement.Data.Querying.csproj.CopyComplete
