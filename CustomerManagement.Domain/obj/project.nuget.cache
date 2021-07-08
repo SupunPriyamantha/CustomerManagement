@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kgVDuEN6RsgtL822K3UmBhioMWhYuCri8uVHmAwdyNRHVDJw1PfeRu9sm9KWwyCu8y1uo0TqoRWKMoBEWqaaag==",
+  "dgSpecHash": "Y5laq5Z1ZOLipDvEsYqwEOo3E+dk8PHEJybAv2EcsBZLFAOdxNXiDSsK1iVkZe5Zg4wsUs5wSg9bDhYL1XqU5w==",
   "success": true,
   "projectFilePath": "D:\\Study_Projects\\CustomerManagement\\CustomerManagement.Domain\\CustomerManagement.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
@@ -23,7 +26,8 @@
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

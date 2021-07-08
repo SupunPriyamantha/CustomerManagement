@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+I/fGQvdCRAKD9IHIJnSSpU7y188Wc6L5xJEAfFTYRMVKUNHjbBiFe9lGSvGi2h5EY3s9ANlKCKxVME9Kn3XA==",
+  "dgSpecHash": "y7E5+K2Jb0x2AC6BnBc/yJInEYxqMYza+Qb70WpTCsxGGm5Q43cfHCWT0Mv1es0Ir6uk7wQs6xOoUjGy2XTFsw==",
   "success": true,
   "projectFilePath": "D:\\Study_Projects\\CustomerManagement\\CustomerManagement.Data\\CustomerManagement.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.7\\microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",
@@ -22,6 +26,7 @@
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\SupunPriyamantha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
