@@ -20,6 +20,7 @@ namespace CustomerManagement.Application.Handlers.Customers.Commands
             _customerRepository = customerRepository;
         }
 
+        #region repository ekata yawala save krgnna place eka
         public async Task<BaseResponse> Handle(CreateCustomerCommand command, CancellationToken cancellationToken = default(CancellationToken))
         {
             
@@ -33,6 +34,8 @@ namespace CustomerManagement.Application.Handlers.Customers.Commands
             await _customerRepository.Add(customer);
             return new CreatedResponse(customer.CustomerId);
         }
+
+        #endregion
 
     }
 }
