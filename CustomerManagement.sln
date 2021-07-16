@@ -19,7 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerManagement.Data.Que
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{DB0D8977-BEAB-4120-A58E-159BF3F2CE61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Application.Tests.Unit", "CustomerManagement.Application.Tests.Unit\CustomerManagement.Application.Tests.Unit.csproj", "{7A0E1994-23C7-46EA-BAEA-FA3D45118BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerManagement.Application.Tests.Unit", "CustomerManagement.Application.Tests.Unit\CustomerManagement.Application.Tests.Unit.csproj", "{7A0E1994-23C7-46EA-BAEA-FA3D45118BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6EF04CD-7B98-496E-B91C-9140216D2BE5}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
