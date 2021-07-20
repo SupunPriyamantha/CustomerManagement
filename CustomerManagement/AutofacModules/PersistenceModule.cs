@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using CustomerManagement.Data.Querying.Queries.Customers;
+using CustomerManagement.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace CustomerManagement.AutofacModules
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //builder.RegisterAssemblyTypes(typeof(CustomerRepository).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
+            
+            builder.RegisterAssemblyTypes(typeof(CutomerRepository).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterAssemblyTypes(typeof(CustomerQuery).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
         }
     }
