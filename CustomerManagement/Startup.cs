@@ -43,10 +43,11 @@ namespace CustomerManagement
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddEnvironmentService(_env);
+            ConfigureDbContextServices(services);
 
-            services.AddDbContext<AppDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<IAppDbContext>(provider => provider.GetService<AppDbContext>());
-            services.AddScoped<ICustomerRepository, CutomerRepository>();
+            //services.AddDbContext<AppDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddScoped<IAppDbContext>(provider => provider.GetService<AppDbContext>());
+            //services.AddScoped<ICustomerRepository, CutomerRepository>();
 
             services.AddMediatR(typeof(BaseResponse).GetTypeInfo().Assembly);
 
@@ -105,24 +106,25 @@ namespace CustomerManagement
             });
         }
 
-        //private void ConfigureDbContextServices(IServiceCollection services)
-        //{
-        //    services.AddDbContext<AppDbContext>(options =>
-        //    {
-        //        if (_env.IsDevelopment())
-        //        {
-        //            options.EnableDetailedErrors();
-        //            options.EnableSensitiveDataLogging();
-        //        }
-
-        //        string connection = Configuration.GetConnectionString("DefaultConnection");
-        //        options.UseNpgsql(
-        //            connection,
-        //            npgsqlOptionsAction: sqlOptions =>
-        //            {
-        //                sqlOptions.MigrationsAssembly(typeof(AppDbContext).GetTypeInfo().Assembly.GetName().Name);
-        //            });
-        //    });
-        //}
+        private void ConfigureDbContextServices(IServiceCollection services)
+        {
+            //services.AddDbContext<AppDbContext>(options =>
+            //{
+            //    string connection = Configuration.GetConnectionString("DefaultConnection");
+            //    options.UseNpgsql(
+            //        connection,
+            //        npgsqlOptionsAction: sqlOptions =>
+            //        {
+            //            sqlOptions.MigrationsAssembly(typeof(AppDbContext).GetTypeInfo().Assembly.GetName().Name);
+            //        });
+            //});
+            services.AddDbContext<AppDbContext>(
+               options => options.UseNpgsql(
+                   Configuration.GetConnectionString("DefaultConnection"),
+                   npgsqlOptionsAction: sqlOptions =>
+                   {
+                       sqlOptions.MigrationsAssembly(typeof(AppDbContext).GetTypeInfo().Assembly.GetName().Name);
+                   }));
+        }
     }
 }

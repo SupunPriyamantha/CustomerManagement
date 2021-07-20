@@ -12,17 +12,17 @@ namespace CustomerManagement.AutofacModules
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //builder.RegisterType<Application.Events.DomainEventHandlers.MediatorDomainEventDispatcher>().As<IDomainEventDispatcher>().InstancePerLifetimeScope();
-            //builder.RegisterType<Application.Events.DirectEventHandlers.MediatorDirectEventHandler>().As<IDirectEventDispatcher>().InstancePerLifetimeScope();
-            //builder.RegisterType<Application.Events.IntegrationEventHandlers.MediatorIntegrationEventDispatcher>().As<IIntegrationEventDispatcher>().InstancePerLifetimeScope();
+            ////builder.RegisterType<Application.Events.DomainEventHandlers.MediatorDomainEventDispatcher>().As<IDomainEventDispatcher>().InstancePerLifetimeScope();
+            ////builder.RegisterType<Application.Events.DirectEventHandlers.MediatorDirectEventHandler>().As<IDirectEventDispatcher>().InstancePerLifetimeScope();
+            ////builder.RegisterType<Application.Events.IntegrationEventHandlers.MediatorIntegrationEventDispatcher>().As<IIntegrationEventDispatcher>().InstancePerLifetimeScope();
 
-            // Mediator itself
-            builder.RegisterType<Mediator>().As<IMediator>().InstancePerLifetimeScope();
+            //// Mediator itself
+            //builder.RegisterType<Mediator>().As<IMediator>().InstancePerLifetimeScope();
 
-            // Register all application commands and query handlers
+            //// Register all application commands and query handlers
 
-            builder.RegisterAssemblyTypes(typeof(Application.Handlers.BaseResponse).GetTypeInfo().Assembly)
-                .AsClosedTypesOf(typeof(IRequestHandler<,>));
+            //builder.RegisterAssemblyTypes(typeof(Application.Handlers.BaseResponse).GetTypeInfo().Assembly)
+            //    .AsClosedTypesOf(typeof(IRequestHandler<,>));
         }
     }
 }
